@@ -1,0 +1,22 @@
+{
+  "name": "cypress-dealls",
+  "version": "1.0.0",
+  "description": "UI automation of dealls mentoring",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "Al Khawarismi Atma Pratama",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1",
+    "prettier": "^3.5.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

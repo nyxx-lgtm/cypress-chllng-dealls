@@ -1,0 +1,10 @@
+{
+  "mentee": {
+    "email": "menteedealls@yopmail.com",
+    "password": "admin123"
+  },
+  "mentor": {
+    "email": "mentordealls@yopmail.com",
+    "password": "admin123"
+  }
+}

@@ -1,0 +1,88 @@
+{
+	"mentee": {
+		"fullName": "Al Smith",
+		"profilePicture": "test-image.jpg",
+		"jobSeekingStatus": "Actively looking for the next 3 months ",
+		"whatsAppNumber": "",
+		"email": "",
+		"linkedinURL": "https://www.linkedin.com/in/al-smith-123456789/",
+		"campus": "Binus Binusan",
+		"experienceLevel": "Freshgrad",
+		"companyName": "Tech Innovations",
+		"roleLevel": "Intern",
+		"roleName": "Software Engineer",
+		"startDate": "11/2021",
+		"endDate": "11/2022",
+		"password": "password123",
+		"confirmPassword": "password123"
+	},
+	"mentor": {
+		"profilePicture": "test-image.jpg",
+		"fullName": "Atma Pradana",
+		"whatsAppNumber": "",
+		"email": "",
+		"linkedinURL": "https://www.linkedin.com/in/atma-pradana-987654321/",
+		"instagramURL": "https://www.instagram.com/atma_pradana/",
+		"invitationCode": "MENTOR123",
+		"expertise": [
+			{
+				"name": "Career Expertise",
+				"skills": [
+					{
+						"name": "IT & Engineering",
+						"subSkills": ["Android Developer", "Backend Developer"]
+					},
+					{
+						"name": "Business",
+						"subSkills": [
+							"Business Development",
+							"Business Operation"
+						]
+					}
+				]
+			},
+			{
+				"name": "Academics Expertise",
+				"skills": [
+					{
+						"name": "Beasiswa S2",
+						"subSkills": ["LPDP"]
+					},
+					{
+						"name": "IISMA/Exchange",
+						"subSkills": ["Europe", "USA"]
+					}
+				]
+			}
+		],
+		"experience": [
+			{
+				"companyName": "Tech Innovations",
+				"companyIndustry": "Information Technology",
+				"roleLevel": "Manager",
+				"roleName": "Software Engineering Director",
+				"startDate": "01/2015",
+				"endDate": "present"
+			},
+			{
+				"companyName": "Tech Innovations",
+				"companyIndustry": "Information Technology",
+				"roleLevel": "Intern",
+				"roleName": "Software Engineer Intern",
+				"startDate": "01/2013",
+				"endDate": "12/2014"
+			}
+		],
+		"education": [
+			{
+				"institutionName": "Binus University",
+				"institutionMajor": "Computer Science",
+				"startDate": "01/2010",
+				"endDate": "01/2014"
+			}
+		],
+		"aboutMe": "Experienced mentor with a strong background in software engineering and business development. Passionate about guiding the next generation of tech professionals.",
+        "password": "mentorPassword123",
+        "confirmPassword": "mentorPassword123"
+	}
+}
