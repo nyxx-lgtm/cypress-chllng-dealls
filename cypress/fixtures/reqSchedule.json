@@ -1,0 +1,16 @@
+{
+    "mentorName": "Jenny",
+    "topics": ["Goal Setting", "Career Planning"],
+    "dateRange": {
+        "month": "June",
+        "year": 2025,
+        "startDay": "June 10 of 2025",
+        "endDay": "June 12 of 2025"
+    },
+    "timeRange": {
+        "startTime": "10:00",
+        "endTime": "12:00"
+    },
+    "locations": ["Online"],
+    "description": "Discuss career goals and strategies for achieving them."
+}
