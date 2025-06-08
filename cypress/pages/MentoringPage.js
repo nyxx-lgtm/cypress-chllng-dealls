@@ -5,6 +5,7 @@ const basePage = new BasePage()
 
 export class MentoringPage {
 	inputSearchMentor(keyword) {
+		cy.wait(1000)
 		mentoringPageObjects.iptSearchMentor.type(`${keyword}{enter}`)
 		cy.wait(2000)
 	}

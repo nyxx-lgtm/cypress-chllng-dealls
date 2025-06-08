@@ -109,7 +109,7 @@ export class OnboardingPage {
 	}
 	fillStep6RegisterMentee(data) {
 		this.inputPassword(data.password)
-		this.inputConfirmPassword.type(data.password)
+		this.inputConfirmPassword(data.password)
 		this.checkTermsAndConditions()
 		this.clickFinish()
 	}
