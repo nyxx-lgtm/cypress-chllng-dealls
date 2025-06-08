@@ -99,6 +99,7 @@ export class OnboardingPage {
 		basePage.clickNext()
 	}
 	fillStep5RegisterMentee(data) {
+		cy.wait(3000)
 		basePage.clickNext()
 	}
 	inputPassword(password) {
