@@ -3,6 +3,9 @@
 
 This project was created to complete the **Dealls Jobs - QA Software Engineer / SDET Challenge**. It contains automated end-to-end (E2E) tests written using [Cypress](https://www.cypress.io/), designed to demonstrate testing capabilities for the DEALLS platform.
 
+The complete document of the challenges (1-3) can be found in
+👉 [Dealls Jobs Challenge](Dealls%20Jobs.docx)
+
 ## 📁 Project Structure
 
 ```
@@ -19,14 +22,6 @@ cypress/
 ├── support/           # Custom commands and configuration
 ├── videos/            # Video recordings of test runs
 │
-node_modules/          # Node.js dependencies
-.gitignore             # Files/folders to ignore in Git
-.prettierrc            # Code formatting rules
-cypress.config.js      # Cypress configuration file
-Dealls Jobs.docx       # Document of the Challenge 1-3
-package.json           # Project metadata and scripts
-package-lock.json      # Dependency lock file
-README.md              # Project overview
 ```
 
 ## 🚀 Getting Started
