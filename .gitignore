@@ -1,10 +1,6 @@
 # Node.js dependencies
 node_modules/
 
-# Cypress test results
-cypress/videos/
-cypress/screenshots/
-
 # Cypress generated files
 cypress/downloads/
 cypress/reports/
