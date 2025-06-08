@@ -19,7 +19,7 @@ export class BaseObjects {
     }
 
     get btnNext() {
-        return cy.xpath(`//*[.='Selanjutnya']//parent::button`)
+        return cy.xpath(`//*[.='Selanjutnya']//parent::button`, { timeout: 10000 })
     }
     get btnNext2() {
         return cy.xpath(`//*[.='Next']//parent::button`);

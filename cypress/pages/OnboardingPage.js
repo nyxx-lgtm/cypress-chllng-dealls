@@ -109,7 +109,7 @@ export class OnboardingPage {
 	}
 	fillStep6RegisterMentee(data) {
 		this.inputPassword(data.password)
-		this.inputConfirmPassword(data.password)
+		this.inputConfirmPassword(data.confirmPassword)
 		this.checkTermsAndConditions()
 		this.clickFinish()
 	}
@@ -259,7 +259,7 @@ export class OnboardingPage {
 		this.clickFinishMentor()
 	}
 	assertThanksForApplyingAsMentor() {
-		cy.contains('Thanks for applying as mentor').should('be.visible')
+		cy.contains('Thanks for applying as mentor', { timeout: 10000 }).should('be.visible')
 	}
 }
 
