@@ -40,8 +40,8 @@ README.md              # Project overview
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cypress-dealls.git
-   cd cypress-dealls
+   git clone https://github.com/nyxx-lgtm/cypress-chllng-dealls.git
+   cd cypress-chllng-dealls
    ```
 
 2. Install dependencies:
